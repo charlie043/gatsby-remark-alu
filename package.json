@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-remark-alu",
+  "description": "gatsby plugin for using ALU MANGA CROPPED IMAGES in markdown",
+  "version": "0.1.0",
+  "author": "@charlie043",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0",
+    "unist-util-visit": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "alu",
+    "remark",
+    "markdown"
+  ],
+  "homepage": "https://github.com/charlie043/gatsby-remark-alu#readme",
+  "bugs": {
+    "url" : "https://github.com/charlie043/gatsby-remark-alu/issues"
+  },
+  "license": "MIT"
+}
