@@ -51,9 +51,9 @@ plugins: [
 ```markdown
 # Blog post title
 
-This is an example of embedding a single tweet card.
+This is an example of embedding ALU CROPPED MANGA CAPTURE.
 Add any markdown as you normally do, and then insert a valid
-Tweet link anywhere to automatically transform it into an
+ALU share link anywhere to automatically transform it into an
 embed card.
 
 https://alu.jp/series/左ききのエレン/crop/P9ORrSGCBU0rk2RrR2c1
@@ -68,8 +68,6 @@ https://alu.jp/series/ランウェイで笑って/crop/xnVrMsLbE5clRhHWta9X
 
 ## How this looks like
 [View a demo here](https://charlie043.party/blog/gatsby-remark-alu-demo)
-
-## 
 
 ## License
 
