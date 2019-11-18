@@ -26,5 +26,8 @@
   "bugs": {
     "url" : "https://github.com/charlie043/gatsby-remark-alu/issues"
   },
+  "files": [
+    "index.js"
+  ]
   "license": "MIT"
 }
