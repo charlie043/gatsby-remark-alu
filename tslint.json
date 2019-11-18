@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": ["node_modules", "dist", "test"]
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": true
+  },
+}
