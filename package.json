@@ -1,11 +1,12 @@
 {
   "name": "gatsby-remark-alu",
   "description": "gatsby plugin for using ALU MANGA CROPPED IMAGES in markdown",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "@charlie043",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "npx tsc"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -13,18 +14,27 @@
     "unist-util-visit": "^2.0.1"
   },
   "devDependencies": {
-    "ava": "^2.4.0"
+    "@types/cheerio": "^0.22.14",
+    "@types/node-fetch": "^2.5.3",
+    "ava": "^2.4.0",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.7.2"
   },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
+    "gatsby-transformer-remark",
+    "gatsby-remark",
     "alu",
     "remark",
     "markdown"
   ],
   "homepage": "https://github.com/charlie043/gatsby-remark-alu#readme",
   "bugs": {
-    "url" : "https://github.com/charlie043/gatsby-remark-alu/issues"
+    "url": "https://github.com/charlie043/gatsby-remark-alu/issues"
   },
   "files": [
     "index.js"
